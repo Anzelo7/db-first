@@ -1,0 +1,21 @@
+ES. Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
+
+
+- ID : Intero - MEDIUMINT - PRIMARY_KEY - AUTOINCREMENT - UNIQUE - NOT_NULL
+- Marca : Stringa - VARCHAR(30) - NOT_NULL
+- Modello : Stringa - VARCHAR(40) - NOT_NULL
+- Targa : Stringa - VARCHAR(20) - NOT_NULL - UNIQUE
+- Tipologia : Stringa - VARCHAR(20)
+- Immatricolazione : Data - DATE - NOT_NULL
+- Km : Intero - MEDIUMINT - NOT_NULL
+- Alimentazione : Stringa - VARCHAR(15) - NOT_NULL
+- Cambio : Stringa - VARCHAR(20) - NOT_NULL
+- Cilindrata : Intero SMALLINT - NOT_NULL
+- KW : Float FLOAT - NOT_NULL
+- CV : Intero SMALLINT
+- Posti : Intero TINYINT
+- Porte : Intero TINYINT
+- Revisione : Data DATETIME
+- Colore : Stringa VARCHAR(10) - NOT_NULL
+- Optional : Stringa TEXT
+- Prezzo : Float FLOAT - NOT_NULL
